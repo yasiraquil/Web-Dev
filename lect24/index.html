@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color:blanchedalmond;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .box{
+            width: 400px;
+            height: 400px;
+            background-color: aquamarine;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            /* transition-property: all;
+            transition-duration: 3s;
+            transition-timing-function: ease;
+            transition-delay: 0s; */
+
+            /* shorthand notation */
+
+            /* transition:all 2s ease-in-out 0s; */
+
+            /* transition on multiple properties */
+
+            transition: width 2s , height 4s;
+        }
+        .box:hover{
+            width: 800px;
+            background-color: blueviolet;
+            height: 800px;
+        }
+
+        p{
+            font-size:x-large;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+           <p>How to see
+            the transition.
+           </p> 
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lumanosimo&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.box{
+    background:linear-gradient(top to left, #ffffffff ,#ffffff33);
+    width: 400px;
+    height: 50%;
+    margin-top: 150px;
+    border-radius: 10px;
+    
+    box-shadow:3px 3px 5px #3ed8ff;
+    border: 2px solid #04c6f7 ;
+    
+
+}
+
+
+
+.content{
+    margin: 10px 20px;
+}
+.signup-header h2{
+    
+    font-size:xxx-large;
+    font-weight: 1000;
+    color: #212121;
+}
+.signup-header p{
+    
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.signup-body p{
+    margin: 10px 0;
+}
+
+.signup-body p label{
+    font-weight: bold;
+    display: block;
+     
+}
+
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+    border: none;
+
+}
+
+.signup-body p input[type="button"] {
+    background-color: #3498db;
+    border: none;
+    color:white;
+    cursor: pointer;
+}
+
+.signup-body p input[type="button"] :hover{
+    background-color:#004574 ;
+
+}
+
+.signup-footer p{
+    color:#555;
+    text-align: center;
+
+}
+
+.signup-footer p a{
+    color: #3498db;
+}
+
+.circle1{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    position: absolute;
+    background: linear-gradient(to top left,#47daff,rgb(255, 255, 255));
+    top: 100px;
+    left: 40px;
+
+}
+
+.circle2{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    position: absolute;
+    background: linear-gradient(to top left,#47daff,rgb(255, 255, 255));
+    bottom: 200px;
+    right: 50px;
+
+}
+
+

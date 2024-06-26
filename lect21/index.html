@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <style>
+
+        .container{
+            background-color: #acd7dd;
+            border: 2px solid black;
+            margin:2px;
+            padding: 2px;
+            width: 1000px;
+            display: flex;
+            }
+        
+        
+        #box_left{
+            background-color: bisque;
+            border: 2px solid rgb(80, 4, 4);
+            width: 47%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        #box_right{
+            background-color: rgb(182, 145, 101);
+            border: 2px solid rgb(80, 4, 4);
+
+        }
+        @media (max-width:640px){
+            .container{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box_left">
+            <p>Text1</p>
+            <p>Text2</p>
+        </div>
+        <div id="box_right">
+            <img src="mustang_gt.avif" alt="mustang_gt" width="50%">
+        </div>
+
+    </div>
+    
+</body>
+</html>
